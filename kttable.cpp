@@ -10,7 +10,7 @@ void kttable() {
 		cin >> a[i];
 	for (i = 0; i < n; ++i) {
 		cin >> b[i];
-		count = ((a[i+1] - a[i]) >= b[i]) ? count+1 : count;
+		count = ((a[i+1] - a[i]) >= b[i]) ? count + 1 : count;
 	}
 	cout << count << endl;
 }
